@@ -1,30 +1,43 @@
-# Mind Reader Exercise
+# To-Do List
 
 ### Description
 
-Create a webapp that plays a game with the user to *read their mind*
+Create an online to-do 
 
 ### MVP (Minimum Viable Product)
 
-By default, the app should prompt the user to click through the app and see a new view for every step
+By default, the app should display items on to do list
 
-You need to be able to scroll through the numbers to see your symbol (page 5 on the wireframe)
+The to-do list should meet the following functionality requirements:
+* display all to-do list items
+* prompting text to add item
+* ability to remove item
+* cross out or check off item as "completed"
+* remove all completed items
+* ability to see number of remaining items
+* ability to check off or cross out all items in one click as a "completed all" function
+* ability to press a button and all items become active again
+* three "views" for the user:
+  * all to-do list items
+  * only completed items
+  * only active non-completed items
 
 #### Wireframe
 
-See [wireframe](https://xd.adobe.com/view/d4197d89-2c18-4e0e-5a01-c4ad9240fbc2-a228/)
+See [wireframe](https://vuejs.org/v2/examples/todomvc.html), but dont copy it 
 
 #### Tech Stack
 
 1. HTML
 2. CSS
 3. JS
+4. Vue.js
 
 ### Objectives
 
 To complete the assignment, you must complete the following:
 ###### Setup:
-1. Fork repo `exercise6-js-mind-reader`
+1. Fork repo `exercise7-vue-to-do-list`
 2. Locally, navigate to your `Sites` folder in the terminal
 3. `git clone` + `your-repo-name` into your Sites folder
 4. Create a `dev` branch to commit your code to
@@ -55,9 +68,9 @@ web/
     index.html - main page (only one page for this exercise)
     css/ - folder to contain CSS files
         /style.css - stylesheet
-    img/ - folder to contain any images
     js/ - folder to contain JavaScript files
         /main.js
+    img/ - folder to contain any images
 README.md - any important information
 .gitignore - file that omits any directory/file from being tracked
 ```
@@ -66,15 +79,7 @@ It is okay if your project has more files and more directories, but at the least
 
 ### Requirements
 
-Use javascript to successfully show the animation transitions
-
-Successfully show state management for each step ( page 1, 2 3 ..) without refreshing the page, this means that you will only create a single index.html
-
-The restart button refreshes the page
-
-Use [https://fontawesome.com/icons](https://fontawesome.com/icons)
-
-All multiples of 9 will be the same symbol
+Website must use Vue.js
 
 Website must be responsive
 
@@ -91,10 +96,4 @@ Your repo should be public so that others can see your code and comment on it.
 - Ask. :-)
 
 **Additional Resouces**
-- [Learn JS](https://www.w3schools.com/js/)
-
-For more information about using API's, see these articles:
-
-- [W3 schools local storage](https://www.w3schools.com/html/html5_webstorage.asp)
-- [Bootstrap hide element](https://getbootstrap.com/docs/4.0/utilities/display/#hiding-elements)
-- [JavaScript Transitions](https://css-tricks.com/controlling-css-animations-transitions-javascript/)
+- [Learn Vue.js](https://vuemastery.com)
